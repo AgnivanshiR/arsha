@@ -375,6 +375,13 @@ h1, h2, h3, h4, h5, h6 {
   background: #37517e;
 }
 
+#inner {
+  width: 100%;
+  height: 20vh;
+  color: white;
+  background: #37517e;
+}
+
 #hero .container {
   padding-top: 72px;
 }
