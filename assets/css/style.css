@@ -1813,3 +1813,7 @@ section {
     padding-top: 4px;
   }
 }
+
+.fSize{
+  font-size: 1px;
+}
