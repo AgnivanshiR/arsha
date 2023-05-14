@@ -839,6 +839,11 @@ section {
   transition: all ease-in-out 0.4s;
   background: #fff;
 }
+  .icon img {
+    width: 100%;
+    height: 200px; /* Adjust the height as per your requirement */
+    object-fit: cover;
+  }
 
 .services .icon-box .icon {
   margin-bottom: 10px;
@@ -874,6 +879,33 @@ section {
 .services .icon-box:hover h4 a {
   color: #47b2e4;
 }
+
+
+  .service-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .service-item {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+  }
+
+  .service-item.alt {
+    background-color: #ffffff;
+  }
+
+  .service-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .service-description {
+    margin-bottom: 20px;
+  }
+
+
 
 /*--------------------------------------------------------------
 # Cta
