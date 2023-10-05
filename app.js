@@ -22,12 +22,15 @@ const storage = multer.diskStorage({
 const upload = multer({ storage });
 
 // Serve static files (if needed)
-app.use(express.static('public'));
+app.use(express.static('assets'));
 
 // Define a route for the form
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'form.html'));
 });
+
+app.use(express.static('.'));
+
 
 // Handle form submission
 app.post('/submit', upload.fields([
